@@ -30,27 +30,17 @@ blockquote {
   font-style: italic;
 }
 
-.collection-item {
-  margin-bottom: 5%;
-  padding-bottom: 5%;
-  border-bottom: 1px solid #000;
-}
-
-.collection-item-2 {
-  margin-bottom: 5%;
-  padding-bottom: 5%;
-  border: 1px none #000;
+.container.footer {
+  height: 100px;
+  background-image: url('../images/sOnRsnpPJ8Dt2MjGXycyC3gKcJNX1hJ0.png');
+  background-position: 0px 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .heading {
   font-size: 90px;
   line-height: 99px;
-}
-
-.heading-2 {
-  color: #222;
-  font-size: 36px;
-  line-height: 48px;
 }
 
 .text-block {
@@ -59,24 +49,6 @@ blockquote {
   font-size: 24px;
   line-height: 38.4px;
   font-style: italic;
-}
-
-.rich-text-block {
-  font-size: 24px;
-  line-height: 38.4px;
-}
-
-.block-quote {
-  font-size: 24px;
-  line-height: 38.4px;
-}
-
-.link-block {
-  text-decoration: none;
-}
-
-.link-block:hover {
-  text-decoration: underline;
 }
 
 .paragraph {
@@ -94,12 +66,19 @@ blockquote {
 .content {
   display: block;
   padding-bottom: 50px;
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px none #e4e4e4;
   background-color: #f4f4f4;
 }
 
+.content.footer {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  border-top-color: orange;
+  background-color: #000;
+}
+
 .navbar {
-  border-bottom: 1px solid orange;
+  border-bottom: 1px solid grey;
   background-color: #fff;
 }
 
@@ -110,15 +89,12 @@ blockquote {
 }
 
 .nav-link:hover {
+  color: orange;
   text-decoration: underline;
 }
 
-.nav-link.twitter {
-  overflow: hidden;
-}
-
-.link {
-  color: #222;
+.nav-link.w--current {
+  color: orange;
 }
 
 .utility-page-wrap {
@@ -154,33 +130,9 @@ blockquote {
   text-align: center;
 }
 
-.utility-page-form {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
 .body {
   background-color: #f4f4f4;
   font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.section-2 {
-  border-top: 1px solid #e4e4e4;
-}
-
-.conten {
-  border-top: 1px solid #e4e4e4;
 }
 
 .heading-3 {
@@ -228,11 +180,6 @@ blockquote {
   background-image: none;
 }
 
-.image {
-  width: 133%;
-  height: 100%;
-}
-
 .paragraph-2 {
   font-family: 'IBM Plex Sans', sans-serif;
 }
@@ -245,27 +192,23 @@ blockquote {
   background-color: #f4f4f4;
 }
 
-.block-quote-3 {
-  border-left-style: none;
-  border-left-width: 0px;
-}
-
-.paragraph-3 {
-  border-style: none;
-  border-top-width: 1px;
-  border-top-color: #000;
-  border-bottom-width: 1px;
-  border-bottom-color: #000;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 400;
-}
-
 .sociallink {
   text-decoration: none;
 }
 
-.container-2 {
-  padding-bottom: 50px;
+.sociallink:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.sociallist {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.sociallistitem {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -278,8 +221,11 @@ blockquote {
     color: #fff;
   }
   .brand {
-    width: 60px;
+    width: 50%;
     height: 60px;
+  }
+  .brand.w--current {
+    width: 75%;
   }
   .menu-button {
     color: #000;
@@ -290,6 +236,9 @@ blockquote {
   }
   .icon {
     color: #0082f3;
+  }
+  .brand-heading {
+    margin-top: 12px;
   }
 }
 
@@ -306,20 +255,9 @@ blockquote {
     font-size: 60px;
     line-height: 66px;
   }
-  .heading-2 {
-    font-size: 22px;
-    line-height: 28.6px;
-  }
   .text-block {
     font-size: 17px;
     line-height: 27.2px;
-  }
-  .rich-text-block {
-    font-size: 17px;
-    line-height: 27.2px;
-  }
-  .block-quote {
-    font-size: 17px;
   }
   .paragraph.intro {
     font-size: 22px;
@@ -333,19 +271,20 @@ blockquote {
     font-size: 17px;
     line-height: 27.2px;
   }
-  .block-quote-2 {
-    font-size: 17px;
-    line-height: 27.2px;
+  .brand {
+    width: 75%;
   }
-  .rich-text-block-2 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 17px;
-    line-height: 27.2px;
+  .brand.w--current {
+    width: 75%;
   }
   .paragraph-2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 17px;
     line-height: 27.2px;
+  }
+  .brand-heading {
+    font-size: 26px;
+    line-height: 38px;
   }
 }
 
