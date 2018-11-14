@@ -70,11 +70,22 @@ blockquote {
   background-color: #f4f4f4;
 }
 
+.content.social {
+  padding-top: 50px;
+  background-color: #444;
+  color: #f4f4f4;
+}
+
 .content.footer {
   padding-top: 50px;
   padding-bottom: 25px;
   border-top-color: orange;
   background-color: #000;
+}
+
+.content.channels {
+  padding-bottom: 0px;
+  background-color: #fff;
 }
 
 .navbar {
@@ -193,11 +204,12 @@ blockquote {
 }
 
 .sociallink {
+  color: orange;
   text-decoration: none;
 }
 
 .sociallink:hover {
-  color: orange;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -213,7 +225,7 @@ blockquote {
 
 .home-philosophy {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   padding-top: 55px;
   padding-bottom: 130px;
   background-color: #666;
@@ -245,6 +257,17 @@ blockquote {
 .philosophy-link:hover {
   color: orange;
   text-decoration: none;
+}
+
+.grid {
+  margin-right: 20px;
+  margin-left: 20px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+  background-color: orange;
 }
 
 @media (max-width: 991px) {
