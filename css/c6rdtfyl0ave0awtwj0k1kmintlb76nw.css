@@ -91,7 +91,6 @@
 }
 
 .w-commerce-commercecheckoutlabel {
-  font-weight: 400;
   margin-bottom: 8px;
 }
 
@@ -113,9 +112,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 0px;
@@ -175,9 +172,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -233,9 +228,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -291,9 +284,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -373,9 +364,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -431,9 +420,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -489,9 +476,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -547,9 +532,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 0px;
@@ -689,9 +672,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -753,9 +734,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -817,9 +796,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -905,9 +882,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -963,9 +938,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -1021,9 +994,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -1079,9 +1050,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -1137,9 +1106,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -1195,9 +1162,7 @@
   border-bottom-right-radius: 3px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  color: #333;
   display: block;
-  font-size: 14px;
   height: 38px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -1306,8 +1271,6 @@
 }
 
 .w-commerce-commercecheckoutorderitemoptionlist {
-  color: #999;
-  font-size: 15px;
   text-decoration: none;
   padding-left: 0px;
   margin-bottom: 0px;
@@ -1370,7 +1333,6 @@
 
 .w-commerce-commercecheckoutsummarytotal {
   font-weight: 700;
-  font-size: 18px;
 }
 
 .w-commerce-commercecheckoutplaceorderbutton {
@@ -1500,12 +1462,66 @@
 }
 
 @media screen and (max-width: 479px) {
+  .w-commerce-commercecheckoutemailinput {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutshippingfullname {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutshippingstreetaddress {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutshippingstreetaddressoptional {
+    font-size: 16px;
+  }
   .w-commerce-commercecheckoutrow {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .w-commerce-commercecheckoutshippingcity {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutshippingstateprovince {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutshippingzippostalcode {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutshippingcountryselector {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutcardnumber,
+  .w-commerce-commercecheckoutcardnumber {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutcardexpirationdate,
+  .w-commerce-commercecheckoutcardexpirationdate {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutcardsecuritycode,
+  .w-commerce-commercecheckoutcardsecuritycode {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutbillingfullname {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutbillingstreetaddress {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutbillingstreetaddressoptional {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutbillingcity {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutbillingstateprovince {
+    font-size: 16px;
+  }
+  .w-commerce-commercecheckoutbillingzippostalcode {
+    font-size: 16px;
   }
 }
 
@@ -1603,7 +1619,7 @@ blockquote {
 }
 
 .content.social {
-  padding-top: 50px;
+  padding: 10px;
   background-color: #444;
   color: #f4f4f4;
 }
@@ -1727,12 +1743,10 @@ blockquote {
 }
 
 .brand {
-  width: 50%;
   height: 75px;
 }
 
 .brand.w--current {
-  width: 50%;
   background-image: none;
 }
 
@@ -1764,8 +1778,11 @@ blockquote {
 }
 
 .sociallistitem {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-bottom: 8px;
+  padding: 0px;
+  border: 1px none #000;
+  border-radius: 0px;
+  background-color: transparent;
 }
 
 .home-philosophy {
@@ -1894,6 +1911,13 @@ blockquote {
   background-repeat: no-repeat, no-repeat;
 }
 
+.grid-4 {
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
 @media (max-width: 991px) {
   .paragraph.intro {
     padding-right: 305px;
@@ -2003,6 +2027,10 @@ blockquote {
     padding-right: 10px;
     padding-left: 10px;
   }
+  .content.social {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .content.hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .44)), to(rgba(0, 0, 0, .44))), url('../images/0YKTSrMbyKrSOHEVZNHRUe4mySVtBuBz.jpg');
     background-image: linear-gradient(180deg, rgba(0, 0, 0, .44), rgba(0, 0, 0, .44)), url('../images/0YKTSrMbyKrSOHEVZNHRUe4mySVtBuBz.jpg');
@@ -2035,6 +2063,9 @@ blockquote {
     font-size: 17px;
     line-height: 27.2px;
   }
+  .sociallistitem {
+    margin-bottom: 10px;
+  }
   .brand-heading {
     font-size: 26px;
     line-height: 38px;
@@ -2065,8 +2096,6 @@ blockquote {
   grid-row-end: 2;
   -ms-grid-column-align: start;
   justify-self: start;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
@@ -2104,8 +2133,6 @@ blockquote {
   grid-row-end: 2;
   -ms-grid-column-align: end;
   justify-self: end;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
