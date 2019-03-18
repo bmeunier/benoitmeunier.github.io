@@ -1610,7 +1610,7 @@ blockquote {
 }
 
 .content.social {
-  padding: 10px 10px 50px;
+  padding: 10px 10px 59px;
   background-color: #444;
   color: #f4f4f4;
 }
@@ -1742,6 +1742,7 @@ blockquote {
 
 .sociallink {
   color: orange;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -1756,7 +1757,7 @@ blockquote {
 }
 
 .sociallistitem {
-  margin-bottom: 8px;
+  margin-bottom: 20px;
   padding: 0px;
   border: 1px none #000;
   border-radius: 0px;
@@ -1849,6 +1850,15 @@ blockquote {
   font-weight: 100;
 }
 
+.sociallistitem.socialfacebook {
+  padding-left: 36px;
+  background-image: url('../images/facebook-copy-2.svg');
+  background-position: 0% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+  font-weight: 200;
+}
+
 .grid-2 {
   margin-top: 30px;
   margin-bottom: 39px;
@@ -1924,6 +1934,12 @@ blockquote {
   background-repeat: no-repeat, no-repeat;
 }
 
+@media (max-width: 991px) {
+  .brand-heading {
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 767px) {
   .container {
     padding-right: 2%;
@@ -1963,6 +1979,7 @@ blockquote {
   }
   .brand-heading {
     margin-top: 12px;
+    font-size: 26px;
   }
   .grid-3 {
     font-size: 18px;
@@ -1971,7 +1988,7 @@ blockquote {
     background-color: #333;
   }
   .section {
-    height: 50vh;
+    height: 100vh;
     background-position: 15px 97%, 50% 0%;
   }
 }
@@ -2001,7 +2018,7 @@ blockquote {
   }
   .content.social {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 60px;
   }
   .nav-link {
     background-color: #333;
@@ -2032,12 +2049,13 @@ blockquote {
   }
   .sociallist {
     margin-top: 20px;
+    margin-bottom: 45px;
   }
   .sociallistitem {
     margin-bottom: 10px;
   }
   .brand-heading {
-    font-size: 26px;
+    font-size: 22px;
     line-height: 38px;
   }
   .grid-3 {
@@ -2050,7 +2068,7 @@ blockquote {
     line-height: 34px;
   }
   .section {
-    height: 50vh;
+    height: 100vh;
   }
 }
 
