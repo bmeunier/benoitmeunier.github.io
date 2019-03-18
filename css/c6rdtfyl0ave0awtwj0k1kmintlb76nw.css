@@ -1541,6 +1541,14 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  margin-top: 20px;
+  margin-bottom: 32px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
 a {
   color: orange;
   text-decoration: underline;
@@ -1569,8 +1577,8 @@ blockquote {
 .container.footer {
   height: 100px;
   background-image: url('../images/sOnRsnpPJ8Dt2MjGXycyC3gKcJNX1hJ0.png');
-  background-position: 0px 50%;
-  background-size: contain;
+  background-position: 0% 100%;
+  background-size: 15%;
   background-repeat: no-repeat;
 }
 
@@ -1619,7 +1627,7 @@ blockquote {
   padding-top: 50px;
   padding-bottom: 25px;
   border-top-color: orange;
-  background-color: #000;
+  background-color: #444;
 }
 
 .navbar {
@@ -1929,7 +1937,7 @@ blockquote {
 .section {
   height: 100vh;
   background-image: url('../images/sOnRsnpPJ8Dt2MjGXycyC3gKcJNX1hJ0.png'), url('../images/Je-me-rappel.jpg');
-  background-position: 15px 97%, 50% 0px;
+  background-position: 15px 97%, 50% -100px;
   background-size: 150px, cover;
   background-repeat: no-repeat, no-repeat;
 }
@@ -1937,6 +1945,9 @@ blockquote {
 @media (max-width: 991px) {
   .brand-heading {
     font-size: 32px;
+  }
+  .section {
+    background-position: 15px 97%, 50% -50px;
   }
 }
 
