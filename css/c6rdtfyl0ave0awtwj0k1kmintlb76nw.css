@@ -1556,7 +1556,7 @@ a {
 
 a:hover {
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 blockquote {
@@ -1612,6 +1612,7 @@ blockquote {
 
 .content {
   display: block;
+  padding-top: 50px;
   padding-bottom: 50px;
   border-top: 1px none #e4e4e4;
   background-color: #f4f4f4;
@@ -1631,22 +1632,24 @@ blockquote {
 }
 
 .navbar {
-  border-bottom: 1px solid grey;
-  background-color: #fff;
+  border: 1px none #000;
+  border-radius: 0px;
+  background-color: transparent;
 }
 
 .nav-link {
   font-family: 'IBM Plex Sans', sans-serif;
+  color: hsla(38.82352941176471, 0.00%, 100.00%, 1.00);
   text-decoration: underline;
 }
 
 .nav-link:hover {
-  color: #000;
+  color: orange;
   text-decoration: none;
 }
 
 .nav-link.w--current {
-  color: #000;
+  color: hsla(38.82352941176471, 0.00%, 100.00%, 1.00);
   font-weight: 700;
   text-decoration: none;
 }
@@ -1697,33 +1700,6 @@ blockquote {
   display: none;
 }
 
-.field-label {
-  display: none;
-}
-
-.text-field {
-  padding: 40px 30px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 36px;
-  line-height: 48px;
-}
-
-.submit-button {
-  font-family: 'IBM Plex Sans', sans-serif;
-}
-
-.success-message {
-  border-top: 1px none #000;
-  background-color: #fff;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-style: italic;
-}
-
-.text-block-2 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 700;
-}
-
 .body-2 {
   background-color: #fafafa;
 }
@@ -1734,17 +1710,10 @@ blockquote {
 
 .brand.w--current {
   background-image: none;
-}
-
-.paragraph-2 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  color: #f7f7f7;
 }
 
 .body-3 {
-  background-color: #f4f4f4;
-}
-
-.body-4 {
   background-color: #f4f4f4;
 }
 
@@ -1867,6 +1836,16 @@ blockquote {
   font-weight: 200;
 }
 
+.brand-heading {
+  color: hsla(38.82352941176471, 0.00%, 100.00%, 1.00);
+  font-weight: 100;
+}
+
+.brand-heading:hover {
+  border: 1px none #000;
+  text-decoration: none;
+}
+
 .grid-2 {
   margin-top: 30px;
   margin-bottom: 39px;
@@ -1931,7 +1910,9 @@ blockquote {
 .hero {
   margin-top: 0px;
   margin-bottom: 60px;
-  line-height: 52px;
+  font-size: 38px;
+  line-height: 58px;
+  font-weight: 600;
 }
 
 .section {
@@ -1940,6 +1921,14 @@ blockquote {
   background-position: 15px 97%, 50% -100px;
   background-size: 150px, cover;
   background-repeat: no-repeat, no-repeat;
+}
+
+.internalnavbar {
+  background-color: #4d4d4d;
+}
+
+.linkondark:hover {
+  color: #ccc;
 }
 
 @media (max-width: 991px) {
@@ -2063,11 +2052,6 @@ blockquote {
   }
   .icon {
     color: orange;
-  }
-  .paragraph-2 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 17px;
-    line-height: 27.2px;
   }
   .sociallist {
     margin-top: 20px;
