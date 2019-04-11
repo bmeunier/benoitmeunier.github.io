@@ -862,6 +862,7 @@
 
 .w-commerce-commercecheckoutbillingaddresswrapper {
   margin-top: 16px;
+  margin-bottom: 20px;
 }
 
 .w-commerce-commercecheckoutbillingfullname {
@@ -1631,6 +1632,13 @@ blockquote {
   background-color: #444;
 }
 
+.content.hero {
+  background-image: url('../images/np_arrow_1921092_000000.png');
+  background-position: 50% -30px;
+  background-size: 75px;
+  background-repeat: no-repeat;
+}
+
 .navbar {
   border: 1px none #000;
   border-radius: 0px;
@@ -1694,6 +1702,11 @@ blockquote {
 .body {
   background-color: #f4f4f4;
   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.body.landinglinksbody {
+  background-color: #303030;
+  color: #4d4d4d;
 }
 
 .heading-3 {
@@ -1916,9 +1929,9 @@ blockquote {
 }
 
 .section {
-  height: 750px;
+  height: 950px;
   background-image: url('../images/sOnRsnpPJ8Dt2MjGXycyC3gKcJNX1hJ0.png'), url('../images/Je-me-rappel.jpg');
-  background-position: 15px 97%, 50% -100px;
+  background-position: 15px 97%, 50% -350px;
   background-size: 150px, cover;
   background-repeat: no-repeat, no-repeat;
 }
@@ -1931,11 +1944,41 @@ blockquote {
   color: #ccc;
 }
 
+.landinglinks-block {
+  width: auto;
+  padding: 20px 0px 40px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  text-align: center;
+}
+
+.landinglinks-block:hover {
+  color: #fff;
+  font-weight: 500;
+}
+
+.landinglinkscolumn {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.image-4 {
+  width: 150px;
+}
+
+.landinglinks-text {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 @media (max-width: 991px) {
   .brand-heading {
     font-size: 32px;
   }
   .section {
+    height: 750px;
     background-position: 15px 97%, 50% -50px;
   }
 }
@@ -2074,7 +2117,12 @@ blockquote {
     line-height: 34px;
   }
   .section {
-    height: 500px;
+    height: 350px;
+    background-image: url('../images/sOnRsnpPJ8Dt2MjGXycyC3gKcJNX1hJ0.png'), url('../images/Je-me-rappel.jpg');
+    background-position: 15px 97%, 50% 0%;
+    background-size: 150px, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
   }
 }
 
