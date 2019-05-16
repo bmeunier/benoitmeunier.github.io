@@ -1647,7 +1647,7 @@ blockquote {
 
 .nav-link {
   font-family: 'IBM Plex Sans', sans-serif;
-  color: hsla(38.82352941176471, 0.00%, 100.00%, 1.00);
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -1657,7 +1657,7 @@ blockquote {
 }
 
 .nav-link.w--current {
-  color: hsla(38.82352941176471, 0.00%, 100.00%, 1.00);
+  color: #fff;
   font-weight: 700;
   text-decoration: none;
 }
@@ -1705,7 +1705,7 @@ blockquote {
 }
 
 .body.landinglinksbody {
-  background-color: #303030;
+  background-color: #313131;
   color: #4d4d4d;
 }
 
@@ -1850,8 +1850,13 @@ blockquote {
   font-weight: 200;
 }
 
+.sociallistitem.socialpaypal {
+  padding-left: 0px;
+  font-weight: 100;
+}
+
 .brand-heading {
-  color: hsla(38.82352941176471, 0.00%, 100.00%, 1.00);
+  color: #fff;
   font-weight: 100;
 }
 
