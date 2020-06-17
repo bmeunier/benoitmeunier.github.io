@@ -14,11 +14,11 @@
 	$to = 'ecrire@benoitmeunier.info'; // Email submissions are sent to this email
 
 	// Create email	
-	$email_subject = "Message from a Blocs website.";
+	$email_subject = "From benoitmeunier.info";
 	$email_body = "You have received a new message. \n\n".
 				  "Name_8056_3886: $name_8056_3886 \nName_8056_3886: $name_8056_3886 \nName_8056_3886: $name_8056_3886 \nName_8056_3886: $name_8056_3886 \nEmail_8056_3886: $email_8056_3886 \nMessage_8056_3886: $message_8056_3886 \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@yoursite.com\n";
+	$headers .= "From: ecrire@benoitmeunier.info\n";
 	$headers .= "Reply-To: $email_8056_3886";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
