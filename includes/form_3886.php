@@ -11,7 +11,7 @@
 	$email_8056_3886 = $_POST['email_8056_3886'];
 	$message_8056_3886 = $_POST['message_8056_3886'];
 	
-	$to = 'receiver@yoursite.com'; // Email submissions are sent to this email
+	$to = 'ecrire@benoitmeunier.info'; // Email submissions are sent to this email
 
 	// Create email	
 	$email_subject = "Message from a Blocs website.";
